@@ -12,9 +12,21 @@ html {
 .wrapper {
     width: 1200px;
     margin: auto;
-    text-align: center;
 }
 
 .title {
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#comment-block {
+    list-style: none;
+    font-size: 20px;
+}
+
+#comment-block span {
+    font-weight: 700;
+    color: red;
+    margin-right: 10px;
 }
